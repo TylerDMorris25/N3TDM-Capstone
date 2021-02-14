@@ -6,7 +6,7 @@
 rpi-rw
 
 # Get updated stripped.csv file and put it in tmp files
-wget http://ag4oj.com/NDC/Databases/stripped.csv -O /tmp/stripped.csv
+wget INSERT_URL_TO_STRIPPED.CSV_FILE_HERE -O /tmp/stripped.csv
 
 # Copy udpated stripped.csv file over the old stripped.csv file
 cp /tmp/stripped.csv /usr/local/etc/stripped.csv
