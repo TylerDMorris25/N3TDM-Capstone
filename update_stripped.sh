@@ -3,7 +3,7 @@
 # Script runs automatically via cron.
 
 # Set RPI to Read/Write
-rpi rw
+rpi-rw
 
 # Get updated stripped.csv file and put it in tmp files
 wget http://ag4oj.com/NDC/Databases/stripped.csv -O /tmp/stripped.csv
