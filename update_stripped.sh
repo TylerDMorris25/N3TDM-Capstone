@@ -6,10 +6,10 @@
 rpi-rw
 
 # Get updated stripped.csv file and put it in tmp files
-wget INSERT_URL_TO_STRIPPED.CSV_FILE_HERE -O /tmp/stripped.csv
+wget INSERT_URL_HERE -O /home/pi-star/stripped.csv
 
 # Copy udpated stripped.csv file over the old stripped.csv file
-cp /tmp/stripped.csv /usr/local/etc/stripped.csv
+cp /home/pi-star/stripped.csv /usr/local/etc/stripped.csv
 
 # Reboot the Raspberry Pi.
-reboot
+sudo reboot
